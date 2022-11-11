@@ -41,3 +41,5 @@ train_datagen = ImageDataGenerator(
     fill_mode='nearest'),
 )
 ```
+画像のセットが訓練データに似すぎている
+画像の多様性は訓練データだけでなく、検証データにも必要
